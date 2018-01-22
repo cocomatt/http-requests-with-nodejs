@@ -1,0 +1,22 @@
+{
+  "name": "http-requests-with-nodejs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cocomatt/http-requests-with-nodejs.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cocomatt/http-requests-with-nodejs/issues"
+  },
+  "homepage": "https://github.com/cocomatt/http-requests-with-nodejs#readme",
+  "dependencies": {
+    "https": "^1.0.0"
+  }
+}
