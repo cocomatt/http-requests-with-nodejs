@@ -7,10 +7,8 @@ module.exports = function getHTML (options, callback) {
     response.on('data', function (data) {
       dataBuffer += data;
     });
-
     response.on('end', function() {
-      printHTML(dataBuffer);
-      //console.log(dataBuffer);
+      callback(dataBuffer);
       console.log('Response stream complete.');
     });
   });
